@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="ch.ethz.id.sws.eduapp.data.service.EduAppDBHelperFactory">
+   <service>
+      <provide interface="ch.ethz.id.sws.eduapp.data.service.EduAppDBHelperFactory"/>
+   </service>
+   <reference bind="setEduAppJDBCDataHandler" cardinality="1..1" interface="ch.ethz.id.sws.eduapp.data.service.EduAppJDBCDataHandler" name="EduAppJDBCDataHandler" policy="static" unbind="unsetEduAppJDBCDataHandler"/>
+   <implementation class="ch.ethz.id.sws.eduapp.data.service.EduAppDBHelperFactory"/>
+</scr:component>

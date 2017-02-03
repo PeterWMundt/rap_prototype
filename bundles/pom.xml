@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ch.ethz.id.sws.eduapp</groupId>
+    <artifactId>ch.ethz.id.sws.eduapp.bundles</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <parent>
+        <groupId>ch.ethz.id.sws.eduapp</groupId>
+        <artifactId>ch.ethz.id.sws.eduapp.root</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modules>
+        <module>ch.ethz.id.sws.eduapp.app</module>
+        <module>ch.ethz.id.sws.eduapp.clicker</module>
+        <module>ch.ethz.id.sws.eduapp.security</module>
+        <module>ch.ethz.id.sws.eduapp.data</module>
+    </modules>
+</project>

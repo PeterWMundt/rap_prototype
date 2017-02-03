@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factorypath>
+    <factorypathentry enabled="true"
+        id="org.eclipse.jst.ws.annotations.core" kind="PLUGIN" runInBatchMode="false"/>
+    <factorypathentry enabled="true"
+        id="/ch.ethz.id.sws.eduapp.data/lib/javax.persistence_2.1.1.v201509150925.jar"
+        kind="WKSPJAR" runInBatchMode="false"/>
+    <factorypathentry enabled="true"
+        id="/ch.ethz.id.sws.eduapp.data/lib/eclipselink.jar"
+        kind="WKSPJAR" runInBatchMode="false"/>
+    <factorypathentry enabled="true"
+        id="C:\ETHZ_EduApp\jpa_libs\org.eclipse.persistence.jpa.modelgen.processor-2.6.4.jar"
+        kind="EXTJAR" runInBatchMode="false"/>
+</factorypath>

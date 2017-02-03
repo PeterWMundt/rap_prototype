@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_Tr-5EOiJEea9_6cKAFmMRA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_UgiigOiJEea9_6cKAFmMRA" featurename="children" parentElementId="ch.ethz.id.sws.swc.core.partstack.hook">
+    <elements xsi:type="basic:Part" xmi:id="_Ze5S4OiJEea9_6cKAFmMRA" elementId="ch.ethz.id.sws.eduapp.clicker.part.clickerlist" contributionURI="bundleclass://ch.ethz.id.sws.eduapp.clicker/ch.ethz.id.sws.eduapp.clicker.part.ClickerListPart" label="%PartClickerListLabel"/>
+  </fragments>
+</fragment:ModelFragments>

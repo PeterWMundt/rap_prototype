@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0">
+    <OCD id="ethz.swc.data.jdbc" name="SmartWebClient JDBC Connection" description="The JDBC connection information to connect to the DB">
+        <AD id="javax.persistence.jdbc.driver" type="String" default="org.h2.Driver" name="JDBC Driver" description="The name of the JDBC driver to connect."/>
+        <AD id="javax.persistence.jdbc.url" type="String" default="jdbc:h2:mem:eduapp" name="JDBC Connection URL" description="The JDBC connection string."/>
+        <AD id="javax.persistence.jdbc.user" type="String" default="sa" name="JDBC User" description="The JDBC connection's user."/>
+        <AD id="javax.persistence.jdbc.password" type="Password" default="" name="JDBC Password" description="The JDBC connection's password."/>
+    </OCD>
+    <Designate pid="ethz.swc.data.jdbc">
+        <Object ocdref="ethz.swc.data.jdbc"/>
+    </Designate>
+</metatype:MetaData>

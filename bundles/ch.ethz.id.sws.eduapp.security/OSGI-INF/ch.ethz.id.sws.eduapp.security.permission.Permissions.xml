@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="ch.ethz.id.sws.eduapp.security.permission.Permissions">
+   <service>
+      <provide interface="ch.ethz.id.sws.swc.services.IPermissions"/>
+   </service>
+   <implementation class="ch.ethz.id.sws.eduapp.security.permission.Permissions"/>
+</scr:component>

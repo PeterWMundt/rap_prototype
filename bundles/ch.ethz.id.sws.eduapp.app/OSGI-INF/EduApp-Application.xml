@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="EduApp-Application">
+   <property name="contextName" type="String" value="swc"/>
+   <service>
+      <provide interface="org.eclipse.rap.rwt.application.ApplicationConfiguration"/>
+   </service>
+   <implementation class="ch.ethz.id.sws.eduapp.app.EduApp"/>
+</scr:component>
