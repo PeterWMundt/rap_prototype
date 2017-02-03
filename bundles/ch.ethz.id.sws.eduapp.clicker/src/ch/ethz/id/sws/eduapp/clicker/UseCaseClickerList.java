@@ -1,7 +1,6 @@
 package ch.ethz.id.sws.eduapp.clicker;
 
 import static ch.ethz.id.sws.eduapp.clicker.ClickerConstants.PART_ID_CLICKER_LIST;
-import static ch.ethz.id.sws.eduapp.security.permission.Permissions.PN_CLICKER_CREATE;
 import static ch.ethz.id.sws.eduapp.security.permission.Permissions.PN_CLICKER_MANAGE;
 
 import java.util.ArrayList;
@@ -10,9 +9,6 @@ import java.util.Collection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ch.ethz.id.sws.eduapp.clicker.handler.NewClickerHandler;
-import ch.ethz.id.sws.swc.core.menu.MenuContainer;
-import ch.ethz.id.sws.swc.core.menu.MenuItem;
 import ch.ethz.id.sws.swc.core.parts.PartConfiguration;
 import ch.ethz.id.sws.swc.services.IMenuItem;
 import ch.ethz.id.sws.swc.services.IPartConfiguration;
@@ -32,7 +28,7 @@ public class UseCaseClickerList implements IUseCase {
 	@Override
 	public IMenuItem getMenu() {
         LOG.debug("getMenu() START");  //$NON-NLS-1$
-        return createMenu();
+        return null;// createMenu();
     }
 
 	@Override
@@ -45,9 +41,9 @@ public class UseCaseClickerList implements IUseCase {
 
 	//	---
 	
-	private IMenuItem createMenu() {
-		final MenuContainer menuNewClicker = (MenuContainer) new MenuContainer("%Menu_newClicker", 20).setPermission(PN_CLICKER_CREATE);
-		return menuNewClicker.add(new MenuItem("%MenuItem_newClicker", 10).setHandler(NewClickerHandler.class)); 
-	}
+//	private IMenuItem createMenu() {
+//		final MenuContainer menuNewClicker = (MenuContainer) new MenuContainer("%Menu_newClicker", 20).setPermission(PN_CLICKER_CREATE);
+//		return menuNewClicker.add(new MenuItem("%MenuItem_newClicker", 10).setHandler(NewClickerHandler.class)); 
+//	}
 	
 }

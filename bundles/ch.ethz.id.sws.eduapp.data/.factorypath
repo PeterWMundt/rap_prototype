@@ -9,6 +9,6 @@
         id="/ch.ethz.id.sws.eduapp.data/lib/eclipselink.jar"
         kind="WKSPJAR" runInBatchMode="false"/>
     <factorypathentry enabled="true"
-        id="C:\ETHZ_EduApp\jpa_libs\org.eclipse.persistence.jpa.modelgen.processor-2.6.4.jar"
+        id="/ch.ethz.id.sws.eduapp.data/lib/org.eclipse.persistence.jpa.modelgen.processor-2.6.4.jar"
         kind="EXTJAR" runInBatchMode="false"/>
 </factorypath>

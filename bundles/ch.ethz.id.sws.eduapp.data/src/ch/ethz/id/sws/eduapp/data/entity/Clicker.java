@@ -33,13 +33,11 @@ public class Clicker extends BaseEntity implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="MessageID")
+    @Column(name="pk_clicker_id")
     private int id;
     
 	@Column(name = "title")
 	private String title;
-
-
 
     public String getTitle() {
 		return this.title;
