@@ -15,5 +15,6 @@
         <module>ch.ethz.id.sws.eduapp.clicker</module>
         <module>ch.ethz.id.sws.eduapp.security</module>
         <module>ch.ethz.id.sws.eduapp.data</module>
+        <module>ch.ethz.id.sws.eduapp.administration</module>
     </modules>
 </project>

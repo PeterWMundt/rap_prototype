@@ -35,7 +35,7 @@ public class UseCaseClickerList implements IUseCase {
 	public Collection<IPartConfiguration> getPartConfigurations() {
         LOG.debug("getPartConfigurations() START");  //$NON-NLS-1$
 		final Collection<IPartConfiguration> out = new ArrayList<>(1);
-		out.add(new PartConfiguration(PART_ID_CLICKER_LIST, 10, PN_CLICKER_MANAGE));
+		//out.add(new PartConfiguration(PART_ID_CLICKER_LIST, 10, PN_CLICKER_MANAGE));
 		return out;
 	}
 

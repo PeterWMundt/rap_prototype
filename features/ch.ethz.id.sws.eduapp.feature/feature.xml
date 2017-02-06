@@ -184,4 +184,6 @@
         install-size="0" unpack="false" version="0.0.0"/>
     <plugin download-size="0" id="ch.ethz.id.sws.eduapp.data"
         install-size="0" unpack="false" version="0.0.0"/>
+    <plugin download-size="0" id="ch.ethz.id.sws.eduapp.administration"
+        install-size="0" unpack="false" version="0.0.0"/>
 </feature>
