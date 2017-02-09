@@ -64,7 +64,7 @@ public class PartAdministration {
 
 		parent.setLayout(createMainLayout(COLUMNS_NUMBER));
 
-		createTopLeft(parent, 1);
+		topLeft = createTopLeft(parent, 1);
 
 		this.topRight = createTopRight(parent, COLUMNS_NUMBER - 1 );
 

@@ -28,7 +28,11 @@ public class EduAppJDBCDataHandler extends AbstractJDBCDataHandler {
 
 	@Override
 	public void updated(final Dictionary<String, ?> values) throws ConfigurationException {
-		emf = Persistence.createEntityManagerFactory(PERSISTENCE_UNIT_NAME, getJDBCConfig(values));
+		if(null != values){			
+			emf = Persistence.createEntityManagerFactory(PERSISTENCE_UNIT_NAME, getJDBCConfig(values));
+		} else {
+			System.out.println("EduAppJDBCDataHandler::updated() CAUTION!!! -> Dictionary is " + values);
+		}
 	}
 
 	/**

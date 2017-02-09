@@ -1,5 +1,7 @@
 package ch.ethz.id.sws.eduapp.data.service;
 
+import java.nio.file.Paths;
+
 import org.osgi.service.component.annotations.Reference;
 
 import ch.ethz.id.sws.eduapp.data.entity.Clicker;
@@ -27,6 +29,9 @@ public class EduAppDBHelperFactory {
 
     /** @return {@link DBHelper} */
     public DBHelper createDBHelper() {
+    	
+    	//Path path = Paths.get("");
+    	
 //    	boolean jdbcHandlerIsInitialized = this.jdbcHandler.isInitialized();
 //    	System.out.println("EduAppDBHelperFactory::createDBHelper jdbcHandlerIsInitialized = " + jdbcHandlerIsInitialized );
 //        return jdbcHandlerIsInitialized ? new DBHelperImpl(this.jdbcHandler) : new NoOpDBHelper();

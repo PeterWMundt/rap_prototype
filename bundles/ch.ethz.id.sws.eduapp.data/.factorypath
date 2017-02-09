@@ -10,5 +10,5 @@
         kind="WKSPJAR" runInBatchMode="false"/>
     <factorypathentry enabled="true"
         id="/ch.ethz.id.sws.eduapp.data/lib/org.eclipse.persistence.jpa.modelgen.processor-2.6.4.jar"
-        kind="EXTJAR" runInBatchMode="false"/>
+        kind="WKSPJAR" runInBatchMode="false"/>
 </factorypath>
